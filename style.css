@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 70%;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+.list1 {
+  list-style: none;
+  display: inline;
+  padding: 1rem 1rem;
+  font-size: larger;
+  font-weight: bolder;
+}
+.nav {
+  background-color: #a5b4fc;
+  color: #1f2937;
+  padding: 0.75rem;
+}
+.navlist {
+  text-align: right;
+}
+.navtitle {
+  font-size: 2rem;
+}
+.hero {
+  text-align: center;
+}
+.hero-img {
+  width: 500px;
+}
+.heading-inverted {
+  color: #a5b4fc;
+}
+.intro {
+  background-color: #cbd5e1;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.75rem;
+}
+.skills {
+  padding: 1rem;
+  text-align: center;
+}
+.projects {
+  background-color: #cbd5e1;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.75rem;
+}
+.link-primary {
+  background-color: #64748b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  font-size: medium;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+.footer-header {
+  font-weight: bolder;
+  text-align: center;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0.5rem;
+}
+.link {
+  text-decoration: none;
+  color: #64748b;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
