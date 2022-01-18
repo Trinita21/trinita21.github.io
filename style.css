@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 70%;
+  max-width: 868px;
   margin: auto;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
@@ -81,4 +81,24 @@ body {
 }
 .footer ul {
   padding-inline-start: 0px;
+}
+@media screen and (max-width: 636px) {
+  .hero-img {
+    width: 300px;
+  }
+  /* body {
+    max-width: 95%;
+  } */
+  .projects {
+    margin: 0rem 1rem;
+  }
+  .intro {
+    margin: 0rem 1rem;
+  }
+  .navtitle {
+    font-size: 1.5rem;
+  }
+  .list1 {
+    font-size: medium;
+  }
 }
