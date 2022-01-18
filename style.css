@@ -18,6 +18,13 @@ body {
   font-size: larger;
   font-weight: bolder;
 }
+.list1 a {
+  text-decoration: none;
+  color: #1f2937;
+}
+.list a:visited {
+  color: white;
+}
 .nav {
   background-color: #a5b4fc;
   color: #1f2937;
@@ -66,6 +73,7 @@ body {
 .footer {
   text-align: center;
   padding: 1rem;
+  /* margin-top: 3rem; */
 }
 .footer-header {
   font-weight: bolder;
@@ -101,4 +109,36 @@ body {
   .list1 {
     font-size: medium;
   }
+}
+
+/* Styling for project page */
+.projects-section {
+  text-align: center;
+}
+.span-project {
+  color: #6e84f1;
+  font-weight: bold;
+}
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.cards {
+  border: 5px double black;
+  padding: 1rem;
+  text-align: center;
+  width: 280px;
+  border-radius: 1rem;
+}
+.cards p {
+  font-size: medium;
+}
+.active {
+  color: white !important;
+  font-weight: bold;
+}
+hr {
+  margin: 2rem;
 }
