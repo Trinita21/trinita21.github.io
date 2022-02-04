@@ -45,7 +45,7 @@ body {
 .heading-inverted {
   color: #a5b4fc;
 }
-.intro {
+.section-highlighted {
   background-color: #cbd5e1;
   padding: 1rem;
   text-align: center;
@@ -55,12 +55,12 @@ body {
   padding: 1rem;
   text-align: center;
 }
-.projects {
+/* .projects {
   background-color: #cbd5e1;
   padding: 1rem;
   text-align: center;
   border-radius: 0.75rem;
-}
+} */
 .link-primary {
   background-color: #64748b;
   color: white;
@@ -97,12 +97,12 @@ body {
   /* body {
     max-width: 95%;
   } */
-  .projects {
+  .section-highlighted {
     margin: 0rem 1rem;
   }
-  .intro {
+  /* .intro {
     margin: 0rem 1rem;
-  }
+  } */
   .navtitle {
     font-size: 1.5rem;
   }
@@ -151,4 +151,16 @@ hr {
 }
 .darkmode-btn {
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+.dark-mode .section-highlighted {
+  /* background-color: #959ea8; */
+  background-color: #7f8a97;
+}
+.dark-mode .nav {
+  /* background-color: #a5b4fc; */
+  background-color: #7f8cce;
+}
+.dark-mode .link {
+  color: white;
 }

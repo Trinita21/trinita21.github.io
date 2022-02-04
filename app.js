@@ -1,3 +1,4 @@
+// DARK MODE
 const currentTheme = localStorage.getItem("theme");
 console.log(currentTheme);
 if (currentTheme == "dark") {
@@ -20,3 +21,4 @@ function darkMode() {
   }
   localStorage.setItem("theme", theme);
 }
+// NAVBAR Hamburger Menu
