@@ -142,3 +142,13 @@ body {
 hr {
   margin: 2rem;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .cards {
+  border: 5px double white;
+}
+.darkmode-btn {
+  border-radius: 0.5rem;
+}
